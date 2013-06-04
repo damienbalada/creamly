@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+
+html { 
+  background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	
+header{
+	height:54px;
+	width:100%;
+	top:0;
+	background-color:#e64032;
+	position:absolute;
+	z-index:9;
+}
+
+header #logo{
+	height:35px;
+	width:134px;
+	margin:10px 0 0 15px;
+	background-image:url('../images/logo.png');
+	position:relative;
+	float:left;
+}
+
+header #share{
+	height:54px;
+	width:250px;
+	position:relative;
+	float:right;
+}
+
+header #share #twitter{
+	height:54px;
+	width:120px;
+	position:relative;
+	float:right;
+	background:url('../images/twitter.png') no-repeat center center #dc382a;
+	margin-right:2px;
+}
+
+header #share #facebook{
+	height:54px;
+	width:120px;
+	position:relative;
+	float:right;
+	background:url('../images/facebook.png') no-repeat center center #dc382a;
+}
+
+header #share #facebook:hover{
+	-webkit-transform:translateY(-25px) 1s ease-in;
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+}
+
+#main{
+	width:1220px;
+	height:724px;
+	bottom:0;
+	position:absolute;
+	left: 50%; 
+	margin-left: -610px;
+}
+
+#main #phone{
+	position:relative;
+	float:left;
+	height:724px;
+	width:616px;
+	background-image:url('../images/iphone.png');
+}
+
+#main #icon{
+	position:relative;
+	float:left;
+	height:92px;
+	width:91px;
+	background-image:url('../images/icon.png');
+	margin:125px 0 0 88px;
+}
+
+#main #pitch{
+	position:relative;
+	float:left;
+	height:130px;
+	width:450px;
+	font-family: 'Droid Serif', serif;
+	font-weight:700;
+	font-style:italic;
+	font-size:30px;
+	color:white;
+	margin:40px 0 0 88px;
+	line-height:43px;
+}
+
+#main #btn{
+	position:relative;
+	float:left;
+	height:62px;
+	width:400px;
+	margin:80px 0 0 88px;
+}
+
+#main #apple{
+	position:relative;
+	float:left;
+	height:65px;
+	width:186px;
+	margin:0 20px 0 0;
+	background-image:url('../images/appstore.png');
+
+}
+
+#main #google{
+	position:relative;
+	float:left;
+	height:65px;
+	width:186px;
+	background-image:url('../images/playstore.png');
+
+}
+
+#main #phone #screen{
+	position:relative;
+	background-color:pink;
+	background:url('../images/capture.jpg') no-repeat center center;
+	float:left;
+	height:435px;
+	width:249px;
+	margin: 96px 0 0 268px;
+}
+
+
